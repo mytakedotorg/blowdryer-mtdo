@@ -1,0 +1,17 @@
+plugins {
+	id 'com.diffplug.blowdryer'
+	id 'com.diffplug.spotless-changelog'
+}
+
+spotlessChangelog {
+	changelogFile 'README.md'
+	tagPrefix ''
+}
+
+apply from: 干.file('base/changelog.gradle')
+apply from: 干.file('spotless/freshmark.gradle')
+spotless {
+	groovyGradle {
+		target '*.gradle', 'src/main/resources/**/*.gradle'
+	}
+}
