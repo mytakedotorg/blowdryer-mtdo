@@ -8,7 +8,7 @@
 
 | user                                                                     | updated on  | to version |
 | :----------------------------------------------------------------------- | :---------- | :--------- |
-| [mtdo:factset-gradle-plugin](https://github.com/mytakedotorg/mytakedotorg) | 2020-09-19  | `1.0.0`    |
+| [mtdo:factset-tooling](https://github.com/mytakedotorg/mtdo/tree/staging/factset-tooling) | 2020-09-25  | `1.0.0`    |
 
 ## Available scripts (without `.gradle` extension)
 
