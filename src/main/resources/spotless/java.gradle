@@ -10,16 +10,19 @@ spotless {
 		target '*.gradle'
 		clearSteps()
 		greclipse()
+		toggleOffOn()
 	}
 	java {
 		licenseHeaderFile    干.file("spotless/license-${license}.java")
 		eclipse().configFile 干.file('spotless/format-eclipse.xml')
 		importOrder()
 		removeUnusedImports()
+		toggleOffOn()
 	}
 	if (project == rootProject) {
 		groovyGradle {
 			target '*.gradle', 'buildSrc/*.gradle'
 		}
+		toggleOffOn()
 	}
 }
