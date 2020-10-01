@@ -40,6 +40,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [1.1.0] - 2020-10-01
 ### Added
 * Add `toggleOffOn()` to all the spotless formatters.
 
